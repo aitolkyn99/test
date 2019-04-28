@@ -1,0 +1,46 @@
+		<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Capital Game!</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link href="capital_game.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Sniglet" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" />  <link href="./capital_game.css" rel="stylesheet" />
+
+
+  </head>
+  <body>
+
+    <!--Your code here-->
+    <h1 id = "title"> Do you know the capital of this country? </h1>
+    
+    
+	
+	<table class = "fixed" id = "content" style = "margin-top: 40px; margin-bottom: 40px">
+		<tr id = "tableHeader">
+			<th> Country </th>
+			<th> Capital </th>			
+			<th colspan = "2"> Answer  </th>
+		</tr>
+		<tr>
+			<td id = "pr2__question"> Republic of Korea</td>
+      		<td> <input id = "pr2__answer" type = "text"> </input></td>
+			<td id = "seeAnswer"> 
+
+        <div><button type = "button"; id = "pr2__submit" > See answer </button></div>
+				<!--<input type = "button" value = "See answer" height = 20px width = 50px> -->
+			</td>
+		</tr>
+		
+
+	</table>
+	<script src="jquery/js/jquery-1.9.0.min.js"></script>
+    <script src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
+    <script src="./country_capital_pairs.js"></script>
+    <script src="./capital_game.js"></script>
+  </body>
+  
+</html>

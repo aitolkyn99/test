@@ -1,0 +1,105 @@
+body {
+    background-color: #eee;
+}
+
+th, td {
+  padding: 3px;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+
+.ui-autocomplete {
+	max-height: 200px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-right: 20px;
+
+}
+
+
+
+td {
+	border-bottom: 1px solid darkgrey;
+	border-collapse: collapse;
+	width: 200px;
+}
+
+th {
+	text-align: left;
+	border-bottom: 2px solid black;
+  	border-collapse: collapse;	
+}
+
+h1 {
+	font-family: 'Sniglet', cursive;
+	font-style: bold;
+	text-align: center;
+}
+           
+#pr2__submit {
+	width: 100%;
+	border-radius: 2px 5px;
+	background-image: linear-gradient(to bottom right, darkgrey, white);
+	font-size: 30px;
+}
+
+.btnDelete {
+	transition-duration: 0.2s;
+	height: 50px;
+	width: 100%;
+	font-size: 30px;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 2px 5px
+	margin-right: 0;
+	align-items: right;
+	align-self: right;
+}
+
+
+.btnDelete:hover {
+  background-color: rgb(0, 105, 250); 
+  color: white;
+}
+
+
+#title {
+	font-size: 60px;
+}                     
+#content {  
+    
+    border-spacing: 0;
+    margin-right: auto;
+    margin-left: auto;                
+	width: 70%;
+}                      
+
+
+.correct {
+	color: green;
+}
+
+.incorrect {
+	color: red;
+}
+
+.incorrectAnswer {
+	text-decoration: line-through;
+}
+
+                   
+input[type=text] {
+	width: 100%;
+	height: 100%;
+	/*padding: 10px 20px;*/
+	box-sizing: border-box;
+	font-size: 30px;
+	border: 1px solid black;
+ 	border-radius: 2px;
+	text-align:  left;
+}
+
+
+/*your code here*/
