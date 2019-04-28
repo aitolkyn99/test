@@ -215,7 +215,7 @@ function updateSettings(clicked,value){
 $("#pr2__answer").focus();
 
 getQuestion();
-// bindEvents()
+bindEvents()
 
 
 // addContentToRow(lastRow);
