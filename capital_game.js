@@ -70,11 +70,6 @@ $( function() {
 	})
 
 })
-
-
-
-
-
 function buttonAction() {
 	var answerBox = document.getElementById("pr2__answer")
 	
@@ -216,13 +211,6 @@ function updateSettings(clicked,value){
  			$(".incorrect").show();*/
 
 }
-
-
-
-
-
-
-
 
 $("#pr2__answer").focus();
 
